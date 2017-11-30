@@ -9,7 +9,7 @@ Dockerfile and configuration files for superset web server, using following sett
 The docker image should be used together with [docker-superset-init](https://hub.docker.com/r/malebear311/docker-superset-init/) and [docker-superset-worker](). Use *docker-superset-init* as setup that is only execute once.
 
 ```
-docker run -d --name=superset -p 8088:8088 malebear311/docker-superset-init
+docker run -d --name=superset -p 8088:8088 malebear311/superset
 ```
 
 You can specify following ENVs when execute docker run command. So the container will create with your config.
