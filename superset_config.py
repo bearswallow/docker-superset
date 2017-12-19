@@ -30,6 +30,9 @@ SQLALCHEMY_DATABASE_URI = os.getenv('SUPERSET_METADATA_CONNECTION')
 # Set this API key to enable Mapbox visualizations
 #MAPBOX_API_KEY = ''
 
+# Allow users of Public role accessing anonymous
+PUBLIC_ROLE_LIKE_GAMMA=True
+
 applicationPrefix = os.getenv('APPLICATION_PREFIX')
 
 # Cache config
